@@ -26,3 +26,36 @@ ul {
   .active {
     background-color: #8674AA;
   }
+
+  /* Place the navbar at the bottom of the page, and make it stick */
+.navbar {
+  background-color: #8674AA;
+  overflow: hidden;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+/* Style the links inside the navigation bar */
+.navbar h1 {
+  float: left;
+  display: block;
+  color: #FFF;
+  text-align: center;
+  padding: 14px 18px;
+  text-decoration: none;
+  font-size: 17px;
+  font-family: Arial Black;
+}
+
+/* Change the color of links on hover */
+.navbar h1:hover {
+  background-color: #8674AA;
+  color: white;
+}
+
+/* Add a color to the active/current link */
+.navbar h1.active {
+  background-color: #8674AA;
+  color: #FFF;
+}
