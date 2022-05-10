@@ -59,3 +59,24 @@ ul {
   background-color: #8674AA;
   color: #FFF;
 }
+
+h2 {
+  text-align: center;
+  padding: 14px 18px;
+  text-decoration: none;
+  font-size: 35px;
+  font-family: Arial Black;
+  color: black;
+}
+
+.ani {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.features {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
