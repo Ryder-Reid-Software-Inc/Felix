@@ -55,7 +55,7 @@ ul {
 }
 
 /* Add a color to the active/current link */
-.navbar h1.active {
+.bot h1:hover {
   background-color: #8674AA;
   color: #FFF;
 }
@@ -79,4 +79,8 @@ h2 {
   display: block;
   margin-left: auto;
   margin-right: auto;
+}
+
+body {
+  background:#c5b5e6
 }

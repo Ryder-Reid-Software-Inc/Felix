@@ -2,48 +2,80 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Felix Beta | Miku Music Team LLC</title>
-    
-    
-    <script src="https://www.gstatic.com/firebasejs/9.8.0/firebase.js"></script>
-    <link
-    rel="stylesheet"
-    href="https://unpkg.com/swiper@7/swiper-bundle.min.css"/>
-  
-      <!-- font awesome cdn link -->
-      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
-  
-      <!-- custom css file link -->
-      <link rel="stylesheet" href="./style.css">
-      
-      <div class="se-ds-c-bjzwPR"><img class="se-ds-c-cFpcyF logo-image" width="248" src="./felix.png" role="presentation" alt=""></div>
-  
-  </head>
-  
-  <body>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Felix Beta - Miku Music Team LLC</title>
+
+
+  <script src="https://www.gstatic.com/firebasejs/9.8.0/firebase.js"></script>
+  <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
+
+  <!-- font awesome cdn link -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+  <!-- custom css file link -->
+  <link rel="stylesheet" href="./beta.css">
+
+  <div class="se-ds-c-bjzwPR"><img class="se-ds-c-cFpcyF logo-image" width="248" src="./felix.png" role="presentation"
+      alt=""></div>
+
+</head>
+
+<body>
   <ul>
-    <li><a class="active" href="htts://felix.mikumusicteam.cf/">Home</a></li>
+    <li><a class="active" href="./index.html">Home</a></li>
     <li><a href="./updates.html">Updates</a></li>
     <li><a href="./beta.html">Beta</a></li>
     <!--<li><a href="#about">FAQ</a></li>-->
     <li><a href="./contact.html">Contact</a></li>
+    <li><a href="https://github.com/Miku-Music-Team/Felix/blob/main/LICENSE">License</a></li>
     <li><a href="./about.html">About</a></li>
   </ul>
   <div class="navbar">
-    <h1>©️ Miku Music Team LLC 2022. All designs are concepts and can change, concepts that do stay will be posted public on Twitter.</h1>
+    <h1>©️ Miku Music Team LLC 2022. All designs are concepts and can change, concepts that do stay will be posted
+      public on Twitter.</h1>
+  </div>
+
+  <div class="container">
+    <h1 class="brand"><span>Felix</span> Beta Application</h1>
+    <div class="wrapper">
+      <div class="company-info">
+        <h3>Felix Beta Application</h3>
+        <ul>
+        </ul>
+      </div>
+      <div class="contact">
+        <h3>Enter Application Details</h3>
+        <div class="alert">Your application has been sent!</div>
+        <form id="contactForm">
+          <p>
+            <label>Full Name</label>
+            <input type="text" name="name" id="name" required>
+          </p>
+          <p>
+            <label>Email Address</label>
+            <input type="email" name="email" id="email"required>
+          </p>
+          <p>
+          <p class="full">
+            <button type="submit">Apply</button>
+          </p>
+        </form>
+      </div>
+    </div>
   </div>
 
 
-  </body>
-  </html>
-  
-  <script>
-      var host = "https://felix.mikumusic.team.cf/";
-      if ((host == window.location.host) && (window.location.protocol != "https:"))
-          window.location.protocol = "https";
-      </script>
+</body>
+</html>
+<script src="https://www.gstatic.com/firebasejs/4.3.0/firebase.js"></script>
+  <script src="main.js"></script>
+
+<script>
+  var host = "https://felix.mikumusic.team.cf/";
+  if ((host == window.location.host) && (window.location.protocol != "https:"))
+    window.location.protocol = "https";
+</script>
 
 </html>
